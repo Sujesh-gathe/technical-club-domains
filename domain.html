@@ -1,106 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domains</title>
-    <link rel="stylesheet" href="domain.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Technical club domains</h1>
-    <div class="container">
-        <div class="timeline">
-            <!-- <div class="line"></div> -->
-            <div class="section">
-                <!-- <div class="point"></div> -->
-                <div class="date"></div>
-                <div class="content">
-                    <h2>Website</h2>
-                    <p>
-                        A web developer is a programmer who specializes in, or is specifically engaged in, 
-                        the development of World Wide Web applications using a client–server model. 
-                        The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET (C#), 
-                        Python, Go or Java in the server, and http for communications between client and server. 
-                        A web content management system is often used to develop and maintain web applications.
-                    </p>   
-                    <h3>work done till date</h3>
-                    <ul>
-                        <li>work 1</li>
-                        <li>work 2</li>
-                    </ul> 
-                </div>
-                <div class="time">
-                    <img src="website.jpg"  width="180px" height="180px"/> 
-                </div>
-            </div>
-            <div class="section">
-                <!-- <div class="point"></div> -->
-                <div class="date"></div>
-                <div class="content">
-                    <h2>Electronics</h2>
-                    <p>
-                        Electronic engineering (also called electronics and communications engineering) is an electrical engineering 
-                        discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, 
-                        especially transistors and diodes) to design electronic circuits, devices, integrated circuits and their systems. 
-                        The discipline typically also designs passive electrical components, usually based on printed circuit boards.
-                    </p>   
-                    <h3>work done till date</h3>
-                    <ul>
-                        <li>work 1</li>
-                        <li>work 2</li>
-                    </ul>
-                </div>
-                <div class="time">
-                    <img src="elctronics.webp"  width="180px" height="180px"/> 
-                </div>
-            </div>
-            <div class="section">
-                <!-- <div class="point"></div> -->
-                <div class="date"></div>
-                <div class="content">
-                    <h2>Graphics</h2>
-                    <p>
-                        Graphic design is the process of visual communication through the use of typography, photography, 
-                        iconography and illustration. The field is considered a subset of visual communication and 
-                        communication design, but sometimes the term "graphic design" is used synonymously
-                    </p>   
-                    <h3>work done till date</h3>
-                    <ul>
-                        <li>work 1</li>
-                        <li>work 2</li>
-                    </ul>
-                </div>
-                <div class="time">
-                    <img src="graphic.jpg"  width="180px" height="180px"/> 
-                </div>
-            </div>
-            <div class="section">
-                <!-- <div class="point"></div> -->
-                <div class="date"></div>
-                <div class="content">
-                    <h2>Aero modleing</h2>
-                    <p>
-                        Aeromodelling is the art of designing,building and flying miniaturized aircrafts (powered or non-powered). 
-                        One can build a model plane from any material like Paper, Balsa wood etc.
-                    </p> 
-                    <h3>work done till date</h3>  
-                    <ul>
-                        <li>work 1</li>
-                        <li>work 2</li>
-                    </ul>
-                </div>
-                <div class="time">
-                    <img src="aeromodling.png"  width="180px" height="180px"/> 
-                </div>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="domain.css">
+        <link rel = "icon" href = "./images/tlb.png" type = "image/x-icon">
+        <title>Domains</title>
+    </head>
+    <body>
 
+     <!------------ NAV BAR ------------>
+        <nav>
+            <div class="logo"><img src="./images/tlb.png" alt=""></div>
+            <div class="toggle">
+                <div class="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="#">Our Achievements</a></li>
+                <li><a href="#">Domains</a></li>
+                <li><a href="clubs.html">Clubs</a></li>
+            </ul>
+        </nav>
+   
 
+        <div class="heading">
+            <h1>Technical club domains</h1>
         </div>
         
-    </div>
+        
+        <section>
+            <div class="item" id="item1">
+                <div class="content">
+                  <h3 class="name">Website</h3>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima dignissimos alias aliquam incidunt accusamus molestias a animi nisi expedita veniam at quod veritatis voluptatem, reprehenderit reiciendis tempore illum nesciunt?</p>
+                </div>
+                <img class="desk" src="website.jpg" alt="">
+            </div>
+            <div class="team">
+                <h2>projects</h2>
+                <div class="members">
+                <ul class="grid">
+                    <li>
+                    <div class="box img1">
+                        <div class="info">
+                        <p>project1<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="box img2">
+                        <div class="info">
+                        <p>project2<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>          
+                    <li>
+                    <div class="box img3">
+                        <div class="info">
+                        <p>project3<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="item" id="item1">
+                <img class="desk" src="elctronics.webp" alt="">
+                <div class="content" style="text-align: right;">
+                  <h3 class="name">Electronics</h3>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima dignissimos alias aliquam incidunt accusamus molestias a animi nisi expedita veniam at quod veritatis voluptatem, reprehenderit reiciendis tempore illum nesciunt?</p>
+                </div>
+            </div>
+            <div class="team">
+                <h2>projects</h2>
+                <div class="members">
+                <ul class="grid">
+                    <li>
+                    <div class="box img1">
+                        <div class="info">
+                        <p>project1<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="box img2">
+                        <div class="info">
+                        <p>project2<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>          
+                    <li>
+                    <div class="box img3">
+                        <div class="info">
+                        <p>project3<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="item" id="item1">
+                <img class="desk" src="graphic.jpg" alt="">
+                <div class="content">
+                  
+                  <h3 class="name">Graphic</h3>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima dignissimos alias aliquam incidunt accusamus molestias a animi nisi expedita veniam at quod veritatis voluptatem, reprehenderit reiciendis tempore illum nesciunt?</p>
+                </div>
+            </div>
+            <div class="team">
+                <h2>projects</h2>
+                <div class="members">
+                <ul class="grid">
+                    <li>
+                    <div class="box img1">
+                        <div class="info">
+                        <p>project1<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="box img2">
+                        <div class="info">
+                        <p>project2<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>          
+                    <li>
+                    <div class="box img3">
+                        <div class="info">
+                        <p>project3<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="item" id="item1">
+                <img class="desk" src="aeromodling.png" alt="">
+                <div class="content" style="text-align: right;">
+                  <h3 class="name">Aero modeling</h3>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima dignissimos alias aliquam incidunt accusamus molestias a animi nisi expedita veniam at quod veritatis voluptatem, reprehenderit reiciendis tempore illum nesciunt?</p>
+                </div>
+            </div>
+ 
 
-</body>
+            <div class="team">
+                <h2>projects</h2>
+                <div class="members">
+                <ul class="grid">
+                    <li>
+                    <div class="box img1">
+                        <div class="info">
+                        <p>project1<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="box img2">
+                        <div class="info">
+                        <p>project2<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>          
+                    <li>
+                    <div class="box img3">
+                        <div class="info">
+                        <p>project3<br><a href="http://www.rknec.edu/Students/SRC/technical.aspx">link for project</a></p>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
